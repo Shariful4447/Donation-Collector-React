@@ -29,7 +29,7 @@ const Donation = () => {
 
     const noDonationsYet = <>
         <div className="text-center py-20">
-            <img src="https://salemcommon.org/wp-content/uploads/2019/03/donate.png" alt="donation" className="w-20 inline-block" />
+            <img src="https://i.ibb.co/yWjHPsZ/donation-box-charity-concept-human-hands-putting-money-cash-love-heart-donation-box-together-helping.jpg" alt="donation" className="w-20 inline-block" />
             <h2 className="text-3xl">No donations yet!</h2>
         </div>
     </>
