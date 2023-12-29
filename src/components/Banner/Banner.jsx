@@ -11,7 +11,7 @@ const Banner = ({ sortByCategory }) => {
                     <h1 className="text-3xl md:text-[45px] font-semibold">I Grow By Helping People In Need</h1>
                     <div className="mt-7">
                         <input onChange={(e) => setSearchQuery(e.target.value)} type="text" placeholder="Search here...." className="input input-bordered" />
-                        <button onClick={() => sortByCategory(searchQuery)} className="btn bg-[#FF444A] hover:bg-[#FF444A] normal-case text-white">Search</button>
+                        <button onClick={() => sortByCategory(searchQuery)} className="btn m-2 bg-[#FF444A] hover:bg-[#FF444A] normal-case text-white">Search</button>
                     </div>
                 </div>
             </div>
