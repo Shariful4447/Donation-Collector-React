@@ -10,7 +10,6 @@
             <li>The donations made by the user are stored in local storage in the browser, allowing the user to keep track of their donations.</li>
             <li>The application is entirely responsive, enabling it to be used from any device.</li>
         </ol>
-
     </article>
 </section>
 
