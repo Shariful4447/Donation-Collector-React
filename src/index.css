@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    font-family: 'Inter', sans-serif;
+}
+.active {
+    color: #FF444A;
+    text-decoration: underline;
+}
+
+#banner {
+    background-image: url("https://i.ibb.co/PhQFThv/banner.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.banner-overlay {
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
+/* code for responsiveness */
+@media screen and (max-width: 767px) {
+    .navbar-start {
+        width: 100%;
+        justify-content: space-between;
+    }
+    .navbar-icon {
+        padding-left: 0;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .navbar-start {
+        width: 100%;
+        justify-content: space-between;
+    }
+    .navbar-icon {
+        padding-left: 0;
+    }
+}
